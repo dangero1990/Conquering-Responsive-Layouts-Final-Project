@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conquering Responsive Layouts</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <img src="./img/logo.svg" alt="Conquering Responsive Layouts Logo">
+            </a>
+
+            <nav class="nav row">
+                <ul class="nav__list nav__list--primary">
+                    <li class="nav__item"><a href="#">home</a></li>
+                    <li class="nav__item"><a href="#">about</a></li>
+                    <li class="nav__item"><a href="#">contact</a></li>
+                </ul>
+
+                <ul class="nav__list nav__list--secondary">
+                    <li class="nav__item"><a href="#">sign in</a></li>
+                    <li class="nav__item"><a href="#" class="signup__button btn">sign up</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container row">
+            <div class="hero__heading fifty-col">
+                <h1>Responsive layouts <span class="gold">don't have to be a struggle</span></h1>
+            </div>
+
+            <div class="hero__text muted fifty-col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, velit blanditiis natus necessitatibus vel neque in, laborum dolorem deserunt hic pariatur ducimus ea distinctio illum. Veniam deleniti cum similique impedit.</p>
+                <a href="#" class="hero__button btn">I want to learn</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="design">
+        <div class="container row">
+            <div class="block__col col">
+                <h2 class="block__header gold">Mobile-first</h2>
+                <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus aliquid, vel omnis fugiat possimus tempora nam veniam, necessitatibus delectus vero cupiditate molestiae et impedit. Mollitia ex recusandae dolores pariatur.</p>
+            </div>
+
+            <div class="block__col col">
+                <h2 class="block__header gold">Efficient</h2>
+                <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus aliquid, vel omnis fugiat possimus tempora nam veniam, necessitatibus delectus vero cupiditate molestiae et impedit. Mollitia ex recusandae dolores pariatur.</p>
+            </div>
+
+            <div class="block__col col">
+                <h2 class="block__header gold">Done right</h2>
+                <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis temporibus aliquid, vel omnis fugiat possimus tempora nam veniam, necessitatibus delectus vero cupiditate molestiae et impedit. Mollitia ex recusandae dolores pariatur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info">
+        <div class="container row">
+            <div class="col lg-col">
+                <h2 class="gold">It doesn't have to be so hard</h2>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni dolores a consectetur, reprehenderit, iste laborum delectus sapiente temporibus placeat repellat officiis dolorem. Praesentium adipisci pariatur iusto incidunt minima, aperiam voluptas.</p>
+
+                <img src="./img/hero-img.jpg">
+
+                <p class="">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt molestiae nam suscipit id corrupti, aliquid amet ad autem eos! Odio maiores possimus quibusdam dolorem, sit molestias qui eum reprehenderit deleniti.</p>
+            </div>
+
+            <div class="col sm-col">
+                <div class="block__col info__block">
+                    <h2 class="block__header">Break it down</h2>
+                    <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nihil aspernatur. Voluptas voluptatem officia quidem asperiores neque veritatis quo laboriosam maxime expedita tenetur, id provident tempore eveniet, consectetur eum. Similique!</p>
+                </div>
+
+                <div class="block__col info__block">
+                    <h2 class="block__header">Work you way up</h2>
+                    <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nihil aspernatur. Voluptas voluptatem officia quidem asperiores neque veritatis quo laboriosam maxime expedita tenetur, id provident tempore eveniet, consectetur eum. Similique!</p>
+                </div>
+
+                <div class="block__col info__block">
+                    <h2 class="block__header">.</h2>
+                    <p class="block__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, nihil aspernatur. Voluptas voluptatem officia quidem asperiores neque veritatis quo laboriosam maxime expedita tenetur, id provident tempore eveniet, consectetur eum. Similique!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__heading">Just scratching the surface</h2>
+
+            <div class="row">
+                <div class="about fifty-col">
+                    <h3 class="gold">About our company</h3>
+                    <p class="about__text muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptas omnis non pariatur ex repellat nisi odio animi consequuntur, id dolores a placeat beatae esse sapiente laudantium ducimus similique nesciunt.</p>
+                </div>
+                <div class="footer__nav fifty-col">
+                    <div class="footer__block">
+                        <h3 class="gold">Getting around</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#">Home</a></li>
+                            <li class="footer__item"><a href="#">About</a></li>
+                            <li class="footer__item"><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list">
+                        <h3 class="gold">Other things</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">Lorem ipsum<a href="#"></a></li>
+                            <li class="footer__item">dolor<a href="#"></a></li>
+                            <li class="footer__item">sit amet<a href="#"></a></li>
+                            <li class="footer__item"><a href="#">consectetur</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__list">
+                        <h3 class="gold">And more</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#">Lorem ipsum</a></li>
+                            <li class="footer__item"><a href="#">dolor </a></li>
+                            <li class="footer__item"><a href="#">sit amet</a></li>
+                            <li class="footer__item"><a href="#">consectetur</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
